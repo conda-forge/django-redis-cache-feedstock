@@ -7,7 +7,7 @@ package:
 
 source:
     fn: django-redis-cache-{{ version }}.tar.gz
-    url: https://pypi.python.org/packages/source/d/django-redis-cache/django-redis-cache-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/e9/50/13d72d9d3a3c8ffd3c66dc91f2918f9f6bc8454c3d869dd86576e2e02aaa/django-redis-cache-1.7.1.tar.gz
     md5: 741907c4e36923601827ad06d9ba7bf1
 
 build:

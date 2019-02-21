@@ -1,4 +1,4 @@
-{% set version = "1.8.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: django-redis-cache
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-redis-cache/django-redis-cache-{{ version }}.tar.gz
-  sha256: 572c6b0a7c0f454a227082342aeb2ac49abd318ac651e9148484cc7185dd9f26
+  sha256: d87bbc3d92a39a079bc31a290df9caba8487d37a02981def31168e39845031e8
 
 build:
   number: 0

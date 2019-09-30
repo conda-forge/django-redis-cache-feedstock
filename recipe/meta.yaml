@@ -20,7 +20,7 @@ requirements:
   run:
     - python
     - django
-    - redis<4.0
+    - redis <4.0
     - six
 
 test:

@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: django-redis-cache
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-redis-cache/django-redis-cache-{{ version }}.tar.gz
-  sha256: 77dcb9d11beef5ce77dadfb95328b7712c3d9bde8419a0ba92968712b9bff48b
+  sha256: 06d4e48545243883f88dc9263dda6c8a0012cb7d0cee2d8758d8917eca92cece
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -32,7 +32,7 @@ about:
   home: http://github.com/sebleier/django-redis-cache/
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'Redis Cache Backend for Django'
+  summary: Redis Cache Backend for Django
 
 extra:
   recipe-maintainers:

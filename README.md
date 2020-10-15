@@ -5,11 +5,9 @@ Home: http://github.com/sebleier/django-redis-cache/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-redis-cache-feedstock/blob/master/LICENSE.txt)
 
 Summary: Redis Cache Backend for Django
-
-
 
 Current build status
 ====================
